@@ -1,0 +1,10 @@
+changeBg:I（舞台）/I1.png;
+changeFigure:tomori/live_default/model.json -next -motion=tomori_cry02 -expression=tomori_cry02;
+:「从此再也不要放开」|「永永远远 再也不要放开」 -fontSize=default;
+:Crychic“重组”后的演出，在，或许有一些陌生的，「春日影」中谢幕了。 -fontSize=default;
+:这会是新生的第一缕光亮，抑或仅是烟花燃尽前的余辉？ -fontSize=default;
+changeFigure:;
+changeBg:K（生活地点）/K32.jpg;
+:"Crychic"演出结束后。 -fontSize=default;
+changeFigure:sakiko/casual/model.json -left -next -motion=sakiko_smile03 -expression=sakiko_smile03;
+丰川祥子:谢谢你......小睦...... -fontSize=default -left;

@@ -1,0 +1,5 @@
+Game_name:若叶睦之死;
+Game_key:0f87dstRg;
+Title_img:deathofmzm_bg.png;
+Title_bgm:bane.mp3;
+Game_Logo:;
