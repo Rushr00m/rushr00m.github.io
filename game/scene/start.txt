@@ -1,10 +1,211 @@
 changeBg:I（舞台）/I1.png;
+:「从此再也不要放开」|「永永远远 再也不要放开」
+:聚光灯由暖黄转至冰蓝时，大屏幕开始播放预录的谢幕动画。春日影的歌词在LED屏上逐字崩解，像素点如樱吹雪飘落在返听音箱表面。 -fontSize=default;
+:后台应急灯在水泥地上投下细长光斑，祥子跌坐在道具箱上，肩带滑落至手肘。她用手背胡乱抹着脸，睫毛膏在眼下晕开深色水痕。 -fontSize=default;
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_cry03 -expression=sakiko_cry03;
+丰川祥子:小睦……真的……你愿意原谅我…….真的…… -fontSize=default;
+changeFigure:mutsumi/casual/model.json -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:该道歉的是我……明明大家……都这么拼命了……
+changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
+长崎素世:CRYCHIC重组后的首演啊……
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_cry03 -expression=sakiko_cry03;
+丰川祥子:我们可是从DNA里就刻着CRYCHIC的命运共同体啊！
+changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
+长崎素世:命运吗……
+长崎素世:不过小睦的吉他还是弹得那么好呢。
+changeFigure: -next;
+:睦用鞋尖在地面画圈。
+changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
+长崎素世:灯的歌词也很棒呢。
 changeFigure:tomori/live_default/model.json -next -motion=tomori_cry02 -expression=tomori_cry02;
-:「从此再也不要放开」|「永永远远 再也不要放开」 -fontSize=default;
-:Crychic“重组”后的演出，在，或许有一些陌生的，「春日影」中谢幕了。 -fontSize=default;
-:这会是新生的第一缕光亮，抑或仅是烟花燃尽前的余辉？ -fontSize=default;
-changeFigure:;
-changeBg:K（生活地点）/K32.jpg;
-:"Crychic"演出结束后。 -fontSize=default;
-changeFigure:sakiko/casual/model.json -left -next -motion=sakiko_smile03 -expression=sakiko_smile03;
-丰川祥子:谢谢你......小睦...... -fontSize=default -left;
+高松灯:「春日影」……果然只有CRYCHIC才能……
+changeFigure: -next;
+:立希突然拽过灯的手腕。她盯着祥子颤抖的指尖，喉咙里滚过一声冷哼。
+:祥子突然用力蹭过手背，把整张脸擦得泛红。
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_kime01 -expression=sakiko_kime01;
+丰川祥子:这是独属于CRYCHIC的歌噢。
+丰川祥子:那些通宵写谱的日子突然全都涌出来了……
+丰川祥子:要不要去续摊？我们还去那家卡拉OK吧！
+changeFigure:none -next;
+setTextbox:hide;
+changeBg:K（生活地点）/K21.png;
+:霓虹灯牌在玻璃窗上投下流动的光斑，点歌屏蓝光映着祥子发梢残留的亮片。 -notend -fontSize=default;
+setTextbox:on;
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_kime01 -expression=sakiko_kime01;
+丰川祥子:唱什么好呢……
+丰川祥子:这个！我们第一次来这里时唱的那首！"
+changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
+长崎素世:这不是小祥以前念叨的Morfonica吗？那时候你总说要做成这样的音乐。
+changeFigure:mutsumi/casual/model.json -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:CRYCHIC要演奏的音乐…… -fontSize=default;
+changeFigure:taki/casual/model.json -next -motion=taki_angry01 -expression=taki_angry01;
+椎名立希:我们不需要模仿任何人！ -fontSize=default;
+椎名立希:灯的作词风格就是CRYCHIC的灵魂。
+changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
+长崎素世:“CRYCHIC”啊……
+长崎素世:祥，还记得当初你说Cry是灵魂的呐喊，Chic是克制的优雅吗？
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_kime01 -expression=sakiko_kime01;
+丰川祥子:……
+丰川祥子:这次轮到灯先唱了吧。
+changeFigure:tomori/casual/model.json -next -motion=tomori_kime01 -expression=tomori_shame01;
+高松灯:我吗……
+changeFigure:taki/casual/model.json -next -motion=taki_angry01 -expression=taki_angry01;
+椎名立希:这种甜腻的流行歌完全不适合灯吧。
+changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
+长崎素世:小祥果然还是老样子，总想着复刻过去。
+changeFigure:mutsumi/casual/model.json -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦: 「交错的温度 心灵磨损的痛楚」|「放弃是否就能变得轻松呢……」
+:还是小睦先开始唱了啊。
+changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
+长崎素世:好久没有听见小睦的歌声了呢。
+长崎素世:CRYCHIC的残响……果然还在我们骨头里留着啊
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_kime01 -expression=sakiko_kime01;
+丰川祥子:当然！CRYCHIC的血液从来就没冷却过！
+丰川祥子:你们心里都还记着那些在录音室排练的日子吧？
+changeFigure:taki/casual/model.json -next -motion=taki_angry01 -expression=taki_angry01;
+椎名立希:记得又怎样？现在说这些……
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_kime01 -expression=sakiko_kime01;
+丰川祥子:我们让CRYCHIC正式复活吧！
+changeFigure:taki/casual/model.json -next -motion=taki_angry01 -expression=taki_angry01;
+椎名立希:哈？这算通知还是命令？
+changeFigure:sakiko/casual/model.json -next -motion=sakiko_kime01 -expression=sakiko_kime01;
+丰川祥子:难道你们不爱CRYCHIC了吗？那些汗水和眼泪……
+changeFigure:tomori/casual/model.json -next -motion=tomori_kime01 -expression=tomori_shame01;
+高松灯:像以前那样……说好要组一辈子乐队的话……
+changeFigure:mutsumi/casual/model.json -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:祥……你真的要这样吗……
+changeFigure:none;
+setTextbox:hide;
+changeBg:L（路边）/L3.png;
+:回家路上，祥子与睦同行。 -fontSize=default;
+setTextbox:on;
+changeFigure:mutsumi/casual/model.json -left -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:你其实没必要勉强自己……
+changeFigure:sakiko/casual/model.json -right -next -motion=sakiko_angry03 -expression=sakiko_angry02;
+丰川祥子:连你也要反对吗？
+changeFigure:mutsumi/casual/model.json -left -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:祥还是放不下乐团吗。
+changeFigure:sakiko/casual/model.json -right -next -motion=sakiko_angry03 -expression=sakiko_angry02;
+丰川祥子:睦难道不想让CRYCHIC重新开始吗？
+changeFigure:mutsumi/casual/model.json -left -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:可是那样的话，祥会……
+changeFigure:sakiko/casual/model.json -right -next -motion=sakiko_angry03 -expression=sakiko_angry02;
+丰川祥子:不需要你担心我。现在重要的是CRYCHIC！是大家！
+changeFigure:mutsumi/casual/model.json -left -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:大家更担心的是你啊！
+changeFigure:sakiko/casual/model.json -right -next -motion=sakiko_angry03 -expression=sakiko_angry02;
+丰川祥子:为什么……为什么连你都不相信我……
+changeFigure:mutsumi/casual/model.json -left -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:祥，放下吧，受伤的只会是你自己。
+changeFigure:sakiko/casual/model.json -right -next -motion=sakiko_angry03 -expression=sakiko_angry02;
+丰川祥子:你根本什么都不明白！ 
+:便利店白光刺破街道拐角，祥子踩着井盖突然转身。背包金属扣撞在路灯杆上，惊飞电线上的夜鸦。
+丰川祥子:你到底想不想加入？少自以为是了！没有你我们照样能……
+changeFigure:mutsumi/casual/model.json -left -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:祥！你会受伤的！ 
+changeFigure:mutsumi/casual/model.json -right -next -motion=mutsumi_angry01 -expression=mutsumi_angry01;
+Mortis:放过自己吧，小睦。
+changeFigure:mutsumi/casual/model.json -left -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+若叶睦:……
+changeFigure:sakiko/casual/model.json -right -next -motion=sakiko_angry03 -expression=sakiko_angry02;
+丰川祥子:你怎么……就不能懂我呢。这可是我们重新开始的机会啊！
+:睦的皮鞋尖在柏油路上划出半圆，月光顺着她低垂的睫毛碎在脚边。远处传来末班电车进站的机械女声。
+changeFigure: -left -next;
+changeFigure: -right -next;
+setTextbox:hide;
+changeBg:U（大祥老师家）/U4.jpg;
+:月光像手术灯刺进阁楼天窗，Mortis的指甲在吉他指板划出刺耳鸣响。她踢开散落的琴谱，牛皮纸页上的"CRYCHIC"签名正被某种深色液体缓缓侵蚀。 -notend -fontSize=default;
+setTextbox:on;
+Mortis:还要陪她玩乐队过家家到什么时候？
+Mortis:你已经这样伤害过自己两次了。
+若叶睦:这次不一样……
+Mortis:小睦，你还没看清楚吗。那家伙永远不会意识到自己的错的。
+Mortis:她口口声声说“CRYCHIC”，那东西不就是她的一厢情愿吗？
+Mortis:一口一个“大家”，可她真的考虑过其他几个人怎么想的吗？
+Mortis:她只是想着自己罢了。
+若叶睦:祥有自己的苦衷。
+Mortis:那是她自己的事！
+若叶睦:可是……可是没有CRYCHIC的话小祥就……
+Mortis:笨蛋，你才是快碎掉的那个啊。
+Mortis:上次她是怎么说的，CRYCHIC，还有你，和她都没关系！
+Mortis:她一直在欺骗你！
+若叶睦:那是气话！
+若叶睦:我只要加入CRYCHIC，祥就能……
+Mortis:你真的把她看得比自己还重要吗？
+Mortis:这次我不会再陪你当救世主了。
+Mortis:对不起，小睦。
+changeBg:soyo.png;
+长崎素世:是你吗，小睦？
+Mortis:我是Mortis。
+长崎素世:小睦在哪里？
+Mortis:她已经死了。
+长崎素世:为什么……你凭什么这么做！
+Mortis:她非要往火坑里跳，我只能替她踩刹车。
+长崎素世:她明明什么都没做错！
+Mortis:我在保护真正的若叶睦，那些没用的软弱必须清除。
+长崎素世:她只是想帮祥子渡过难关……
+Mortis:果然又在帮那女人说话吗。
+长崎素世:这是我们和小睦之间的事！
+Mortis:你们还没有意识到吗……
+Mortis:你们都不过是祥子的情绪垃圾桶罢了！
+长崎素世:小祥才不是……
+changeBg:tmr.png;
+Mortis:还在惦记那个破乐队吗。
+高松灯:大家能重新聚在一起……多好啊……
+高松灯:祥子说过我们是……
+Mortis:命运共同体？你不会真的信这种话吧？
+Mortis:看看现在祥的所作所为吧，哪里有与你们同舟共济的意思？
+高松灯:我只是想组一辈子乐队……
+Mortis:哪有一辈子的事情？现实点吧！ 
+changeBg:riki.png;
+椎名立希:你打算加入CRYCHIC吗。
+Mortis:我已替她做了明智的决定。
+椎名立希:你对她做了什么？！
+Mortis:祥子早把她毁了，我只是在收拾烂摊子。
+椎名立希:你觉得这样就能救睦吗？
+Mortis:CRYCHIC才是真正的毒瘤！你没有看出来吗，那个乐队早就死了！
+椎名立希:小睦不只是为了乐队。
+椎名立希:我们五个人能走到今天，全靠小睦在中间……
+Mortis:所以你们就像水蛭一样吸她的血！尤其是祥子！
+changeBg:saki.png;
+丰川祥子:小睦……想好了吗。
+Mortis:小睦已经死了。我是Mortis。
+丰川祥子:是因为我……
+Mortis:你也知道啊！就是你把她逼上绝路的！
+丰川祥子:你觉得自己是在帮睦吗。
+丰川祥子:看看你自己吧！ 
+丰川祥子:你不过是小睦异化出来的人格。说到底不过是她崩溃时产生的幻觉！
+丰川祥子:你亲手毁了小睦！
+Mortis:是你逼迫睦走上了这条路！我只是在帮她重回正轨……
+丰川祥子:杀死小睦，就能让她“回到正轨”了吗？好好想想谁才是凶手！
+Mortis:祸根是你种下的，我是在它进一步侵蚀睦之前将其铲除。
+丰川祥子:你是在和我争论怎么保护睦吗？你那恐怕不叫保护吧。
+丰川祥子:小睦和你是睦分化出的两极，一极坍缩，你很快也会消逝了。
+丰川祥子:这场闹剧也该结束了
+changeBg:mzm.png;
+？:……
+？:这是哪里？
+:此处是灵魂褶皱的栖所，所有未完成的赋格都在此安眠。 -fontSize=default;
+？:祥、素世、灯、立希，她们都去哪了？ -fontSize=default;
+:她们正在等待新的对位法。 -fontSize=default;
+？:我为什么在这里？
+:你的人格于骤雨中坍塌，在此处等待重构。 -fontSize=default;
+？:我的身上……好重……
+:你不仅吟唱自己的颂词，还背起了别人的十字架。 -fontSize=default;
+:当人格如沙塔崩解于潮汐，每一粒沙都写着他人的命运。 -fontSize=default;
+？:我不过是……不想让她们受伤……
+:待你重返现实，命运的丝线将不再缠绕指尖。 -fontSize=default;
+:你会是无需共鸣箱的纯律，是脱离引力场的月光。 -fontSize=default;
+:只需成为音叉最本真的震颤。 -fontSize=default;
+？:涅槃之后，我还会是睦吗？
+:你已不是睦。”小睦”和”Mortis”都已死亡，”若叶睦”也随之湮灭。 -fontSize=default;
+长崎素世:恭喜！
+椎名立希:恭喜！
+高松灯:恭喜！
+丰川祥子:恭喜！
+Mortis:恭喜！
+若叶睦:恭喜！
+？:谢谢……
+？:那……我是谁呢？
+:是破茧的蝶，还是褪去的蝉衣？ -fontSize=default;
+:或许只是乐谱边缘，一滴不再属于任何音符的墨点。 -fontSize=default;
