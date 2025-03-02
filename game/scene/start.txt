@@ -134,7 +134,7 @@ changeFigure: -left;
 changeFigure: -right;
 changeBg:soyo.png;
 bgm:bgm3.mp3 -enter=2000;
-changeFigure:soyo/casual/model.json -left -next -motion=soyo_sad01 -expression=soyo_ando01;
+changeFigure:soyo/casual/model.json -left -next -motion=soyo_sad01 -expression=soyo_sad01;
 长崎素世:是你吗，小睦？
 setTextbox:on;
 changeFigure:mutsumi/avemujica/model.json -right -next -motion=angry01 -expression=angry01;
@@ -222,7 +222,7 @@ setTextbox:on;
 :你会是无需共鸣箱的纯律，是脱离引力场的月光。 -fontSize=default;
 :只需成为音叉最本真的震颤。 -fontSize=default;
 ？:涅槃之后，我还会是睦吗？
-:你已不是睦。”小睦”和”Mortis”都已死亡，”若叶睦”也随之湮灭。 -fontSize=default;
+:你已不是睦。“小睦”和“Mortis”都已死亡，“若叶睦”也随之湮灭。 -fontSize=default;
 setTextbox:hide;
 changeBg:J（未知地点）/J5.png;
 changeFigure:soyo/casual/model.json -next -motion=soyo_smile03 -expression=soyo_kime01;
